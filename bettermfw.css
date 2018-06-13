@@ -3,3 +3,30 @@ div#psychmode{
     top:34px;
     padding:2px 5px
 }
+
+html.psychedelic{
+    background-color:#010101
+}
+html.psychedelic body{
+    color:#bababa
+}html.psychedelic div#invmode{
+    color:#fff;
+    background-color:#000
+}
+html.psychedelic blockquote{
+    color:#dad0c7
+}
+html.psychedelic blockquote:before{
+    color:#bfbfbf
+}
+html.psychedelic a{
+    color:#07a
+}
+html.psychedelic a:visited{
+    color:#ac5a82
+}
+html.psychedelic span.wr{
+    color:#c0392b
+}
+html.psychedelic span.mfw{
+    color:#19b496
