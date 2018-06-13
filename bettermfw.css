@@ -1,7 +1,19 @@
+
+
 div#psychmode{
     background-color:#FF00FF;
     top:34px;
-    padding:2px 5px
+    padding:2px 5px;
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    font-size:.8em;
+    text-decoration:underline;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
 }
 
 html.psychedelic{
@@ -9,7 +21,7 @@ html.psychedelic{
 }
 html.psychedelic body{
     color:#bababa
-}html.psychedelic div#invmode{
+}html.psychedelic div#psychmode{
     color:#fff;
     background-color:#000
 }
