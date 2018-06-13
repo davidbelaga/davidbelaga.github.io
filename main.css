@@ -197,7 +197,12 @@ div#contrast,div#invmode{
     -ms-user-select:none;
     user-select:none
 }
-
+div#invmode{
+    color:#fff;
+    background-color:#000;
+    top:34px;
+    padding:2px 5px
+}
 span.sb{
     color:#00e
 }
