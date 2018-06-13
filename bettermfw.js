@@ -7,5 +7,8 @@ window.onload = function(){popup('autopopup.html', 'thp')};
 
 */
 
-alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");  
+
+.timeout(10000).done(function() { 
+    alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please");; 
+});
 
