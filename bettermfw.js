@@ -10,27 +10,20 @@ window.onload = function(){popup('autopopup.html', 'thp')};
 
 setTimeout(function() { alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"); }, 10000);
 
+function mettrePsychMode(){
+    document.getElementById(psychmode) = maClasse ;
+};
+window.onload = function(){
+    document.getElementById(psychmode).addEventListener(click , mettrePsychMode);
+};
+
+mettrePsychMode();
+
+
+
+
+
 /*
-function changerClasse()
-{
-document.getElementById(bouton) += boutonRouge ;
-}
-window.onload = function()
-{
-document.getElementById(bouton).addEventListener(click , changerClasse);
-}
-</script>
-<button id="bouton> Mon Bouton </button>
-*/
-
-
-
-
-
-
-
-
-
 
 // mode psychédélique
 function doThatFuckingColorThing(){
@@ -71,3 +64,4 @@ function addPsychColorControl(){
 
 doThatFuckingColorThing();
 addInvertedControl();
+*/
