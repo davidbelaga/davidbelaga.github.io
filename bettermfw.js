@@ -10,14 +10,15 @@ window.onload = function(){popup('autopopup.html', 'thp')};
 
 setTimeout(function() { alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"); }, 10000);
 
-function mettrePsychMode(){
-    document.getElementById(psychmode) = maClasse ;
-};
-window.onload = function(){
-    document.getElementById(psychmode).addEventListener(click , mettrePsychMode);
-};
+$("#btn1").click(function() {
+ $('body').removeClass();
+ $('body').addClass('normal_mode');
+});
 
-mettrePsychMode();
+$("#btn2").click(function() {
+ $('body').removeClass();
+ $('body').addClass('psych_mode');
+});
 
 
 
