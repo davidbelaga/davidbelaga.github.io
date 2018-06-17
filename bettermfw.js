@@ -71,4 +71,3 @@ function addPsychColorControl(){
 
 doThatFuckingColorThing();
 addInvertedControl();
-*/
