@@ -1,4 +1,4 @@
-body.normal_mode{
+body{
     margin:40px auto;
     max-width:650px;
     line-height:1.6;
@@ -12,11 +12,10 @@ h1,h2,h3{
 }
 
 body.psych_mode{
-    margin:40px auto;
-    max-width:650px;
-    line-height:1.6;
-    font-size:18px;
-    color:#444;
-    padding:0 10px;
     background-color:#FF00FF
+}
+
+body.normal_mode{
+    background-color:white
+
 }
