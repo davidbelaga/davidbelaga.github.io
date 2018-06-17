@@ -10,12 +10,12 @@ window.onload = function(){popup('autopopup.html', 'thp')};
 
 setTimeout(function() { alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"); }, 10000);
 
-$("#btn1").click(function() {
+$("#normal_mode").click(function() {
  $('body').removeClass();
  $('body').addClass('normal_mode');
 });
 
-$("#btn2").click(function() {
+$("#psych_mode").click(function() {
  $('body').removeClass();
  $('body').addClass('psych_mode');
 });
