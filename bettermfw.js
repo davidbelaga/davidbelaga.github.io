@@ -10,7 +10,7 @@ window.onload = function(){popup('autopopup.html', 'thp')};
 
 setTimeout(function() { alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"); }, 10000);
 
-
+/*
 function changerClasse()
 {
 document.getElementById(bouton) += boutonRouge ;
@@ -21,6 +21,7 @@ document.getElementById(bouton).addEventListener(click , changerClasse);
 }
 </script>
 <button id="bouton> Mon Bouton </button>
+*/
 
 
 
