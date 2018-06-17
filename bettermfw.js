@@ -11,6 +11,26 @@ window.onload = function(){popup('autopopup.html', 'thp')};
 setTimeout(function() { alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"); }, 10000);
 
 
+function changerClasse()
+{
+document.getElementById(bouton) += boutonRouge ;
+}
+window.onload = function()
+{
+document.getElementById(bouton).addEventListener(click , changerClasse);
+}
+</script>
+<button id="bouton> Mon Bouton </button>
+
+
+
+
+
+
+
+
+
+
 // mode psychédélique
 function doThatFuckingColorThing(){
   var color = 'hsl(' + currentHue + ',80%, 60%)';
@@ -24,6 +44,7 @@ function doThatFuckingColorThing(){
   r.style.color = color;
   setTimeout(function(){doThatFuckingColorThing();}, 1000/25);
 }
+
 
 function someControl(id, textArr, className){
   // You see? No fucking jQuery needed, check http://jsperf.com/getelementbyid-vs-jquery-id/44
@@ -49,3 +70,4 @@ function addPsychColorControl(){
 
 doThatFuckingColorThing();
 addInvertedControl();
+*/
