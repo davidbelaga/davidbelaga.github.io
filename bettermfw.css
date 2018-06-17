@@ -19,3 +19,11 @@ body.normal_mode{
     background-color:white
 
 }
+
+a {
+    display:blocl;
+    width:120px;
+    background:#ffffff;
+    cursor:pointer;
+    margin:2px 0;
+}
