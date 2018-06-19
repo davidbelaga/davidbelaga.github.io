@@ -1,3 +1,4 @@
+
 'use strict';
 // I wish I could have used ES6 extravaganza, but not everyone supports it :(
 var r = document.getElementById('rbw');
@@ -45,3 +46,4 @@ function addInvertedControl(){
 doThatFuckingColorThing();
 addContrastControl();
 addInvertedControl();
+*/
