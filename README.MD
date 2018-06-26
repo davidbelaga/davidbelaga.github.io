@@ -1,1 +1,8 @@
-Voici les devoirs maisons du mardi pour THP. Versions différentes du MFW
+Bonjour,
+
+Voici le lien vers l'exercice du mercredi, le bettermotherfuckingwebsite avec un bouton psychédélique:
+
+
+https://davidbelaga.github.io/bettermfw.html
+
+David Belaga
