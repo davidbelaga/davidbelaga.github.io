@@ -31,7 +31,7 @@ function change_css(){
 
     }
     
-     //change la couleur des h3 en vert et police en Comic Sans
+     //change la couleur des h3 en vert et police en Comic Sans 
     var heading3 = document.getElementsByTagName('h3');
 
     for (var i = 0, c = heading3.length ; i < c ; i++) {
